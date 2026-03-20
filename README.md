@@ -5,7 +5,7 @@ A full-stack digital wallet application built with the **MERN stack** (MongoDB r
 ### Step 1 — Git Clone
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/mern-wallet-app.git
+git clone https://github.com/Arunkumar262004/wallet-app.git
 cd mern-wallet-app
 ```
 
