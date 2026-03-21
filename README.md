@@ -4,10 +4,8 @@ A full-stack digital wallet application built with the **MERN stack** (MongoDB r
 
 ### Step 1 — Git Clone
 
-```bash
 git clone https://github.com/Arunkumar262004/wallet-app.git
-cd mern-wallet-app
-```
+cd wallet-app
 
 ### Step 2 — Create the MySQL Database
 
@@ -19,9 +17,7 @@ CREATE DATABASE wallet_app CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ### Step 3 — Backend Environment
 <!-- ----------------------------------------------------------------------- -->
 
-cd backend
-cp .env
-
+cd backend :
 
 Edit `.env` with your values:
 
@@ -49,6 +45,8 @@ npm start
 <!-- # Install backend dependencies -->
 cd backend && npm install,express,mysql,cors
 npm run dev
+
+<!--  i'm already installed these packages incase any problem please install those packages -->
 
 ### Step 6 — Open in Browser
 http://localhost:3000
