@@ -84,7 +84,15 @@ All endpoints return JSON. Protected routes require `Authorization: Bearer <toke
 | POST   | `/submit`        | Submit Aadhaar + PAN for KYC       |
 | GET    | `/status`        | Get current KYC status             |
 
+-----------------------------------------------------------------------------------------------------
+<!-- Technologies Used -->
+Frontend:
+React, React-Router-Dom, Axios, React-Hot-Toast, Bootstrap, Bootstrap-Icons
 
+Backend: 
+Express, Sequelize, mysql2, jsonwebtoken, bcryptjs, express-validator, express-rate-limit, uuid, dotenv, nodemon
+
+Database: MySQL
 ------------------------------------------------------------------------------------------------------
 <!-- ### User Module -->
 <!-- -  **OTP-based Authentication** — Mobile number + 6-digit OTP login
