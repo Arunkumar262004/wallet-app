@@ -8,7 +8,6 @@ router.use(authMiddleware);
 
 // @route   POST /api/kyc/submit
 // @desc    Submit KYC details
-// @access  Private
 router.post('/submit', [
   body('aadhaar').notEmpty().withMessage('Aadhaar number is required'),
   body('pan').notEmpty().withMessage('PAN number is required'),
@@ -16,7 +15,6 @@ router.post('/submit', [
 
 // @route   GET /api/kyc/status
 // @desc    Get KYC status
-// @access  Private
 router.get('/status', getKYCStatus);
 
 module.exports = router;
